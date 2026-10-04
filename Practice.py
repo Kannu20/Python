@@ -159,43 +159,106 @@
 # s1 = "Hello Kanishak How are you"
 # print(s1.split('a'))
 
-s2 = ' My name is '
-print(s2.join(["Hello ",' kanishak']))
+# s2 = ' My name is '
+# print(s2.join(["Hello ",' kanishak']))
 
 # s3 = "K a n i s h a k"
 # s4 = s2.join(s3)
 # print(s4)
 
-print(s2.strip())
+# print(s2.strip())
 
-s11 = "Kanishak"
-s12 = "Kanishak Todwal"
+# s11 = "Kanishak"
+# s12 = "Kanishak Todwal"
 
-s13 = s11 == s12
-print(s13)
+# s13 = s11 == s12
+# print(s13)
 
-s = "hello"
-s = s.upper()
-print(s)
+# s = "hello"
+# s = s.upper()
+# print(s)
 
 # String reverse
 
 # s= " ".join(reversed(["hello","kanishak"]))
 # print(s)
 
-s = "hello kanishak"
-s1 = s.split(" ")
-s3 = s1.sort()
-print(s3)
-# print(" ".join(s))
+# s = "hello kanishak"
+# s1 = s.split(" ")
+# s3 = s1.sort()
+# print(s3)
+# # print(" ".join(s))
 
-a = "  hello"
-b = "hello  "
+# a = "  hello"
+# b = "hello  "
 
-a1 = a.strip()
-b1 = b.strip()
+# a1 = a.strip()
+# b1 = b.strip()
 
-print(a1)
-print(b1)
+# print(a1)
+# print(b1)
 
-print(a1 == b1)
+# print(a1 == b1)
+
+
+# a = "kanishak"
+# print(len(a))
+
+# a = len(a)
+# print(a)
+
+
+# print(len(a)) # here error come because integer in stored in a  so that's why it will give error
+
+# a = '12345'
+# print(a)
+
+# a1 = 'KannU'
+# print(a1.isalpha())
+
+# wap to print each word of the character in reverse order in the string
+
+# s = input("Enter a string: ")
+
+# words = s.split()
+# print(words)
+# for word in words:
+    
+#     reverse_word = word[::-1]
+    
+#     print(reverse_word, end=" ")
+
+# wap a program to print even no. of character or odd no. character take the input from the user and print the outputl
+
+# a = "Python is very easy is language"
+# a1 = a.split(" ")
+# print(a1)
+# a1.sort()
+# print(a1)
+# a2 = " ".join(a1)
+# print(a2)
+
+# print(a2[::-1]) 
+
+# a1 = a.find("s")
+# print(a1)
+# a2 = a.index("i")
+# print(a2)
+
+# a6 = a.rindex("is")
+# print(a6)
+
+l = [10, 20, ['a','b','c'], 30, 40]
+print(l[-3][-3:-1]) # here -3 is the index of the list and -3:-1 is the index of the sublist
+
+print([2,3][1]) # here 2 is the index of the list and 0 is the index of the sublist
+
+l.extend([50, 6])
+print(l)
+
+l.pop()
+print(l)
+
+l[1] = 25  # Replace the element at index 1 with 25
+print(l) 
+
