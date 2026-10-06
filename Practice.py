@@ -249,16 +249,89 @@
 # print(a6)
 
 l = [10, 20, ['a','b','c'], 30, 40]
-print(l[-3][-3:-1]) # here -3 is the index of the list and -3:-1 is the index of the sublist
+# print(l[-3][-3:-1]) # here -3 is the index of the list and -3:-1 is the index of the sublist
 
-print([2,3][1]) # here 2 is the index of the list and 0 is the index of the sublist
+# print([2,3][1]) # here 2 is the index of the list and 0 is the index of the sublist
 
-l.extend([50, 6])
-print(l)
+# l.extend([50, 6])
+# print(l)
 
-l.pop()
-print(l)
+# l.pop()
+# print(l)
 
-l[1] = 25  # Replace the element at index 1 with 25
-print(l) 
+# l[1] = 25  # Replace the element at index 1 with 25
+# print(l) 
 
+
+# print([[2,[3,4,6]],3,4][0][1][2])
+
+# l.append('R')
+# print(l)
+
+# s = [1,2,3,4]
+
+# s.append([2,4,'t'])
+# print(s)
+
+# s.extend([2,4,'t'])
+# print(s)
+
+# s.remove('t')
+# # print(s.remove('t')) # it will give none because remove function does not return any value
+# print(s)
+
+# s[4].remove('t')
+
+# print(s)
+
+f = [3,2,4,1,5,7,24,3]
+# f.sort(reverse=True)
+print(f)
+#  Deep copy of list
+f1 = f.copy()
+print("copy list: ",f1)
+
+f1.append(100)
+print("Deep copy: ",f1)
+print("Original list: ",f)
+
+# Shallow copy of list
+f2 = f
+f2.append(200)
+print("Shallow copy: ",f2)
+print("Original list: ",f)
+
+f2.pop(2)
+print("After popping element at index 2: ",f2)
+print("Original list after popping from shallow copy: ",f)
+
+f.append(300)
+print("After appending 300 to original list: ",f)
+print("Shallow copy after appending to original list: ",f2)
+# l.extend([50, 60])
+# print(l)
+# l.extend((90, 80))
+# print(l)
+
+# l.extend({'a': 1, 'b': 2})
+# print(l)
+
+# l.extend({1, 'y', 'z'})
+# print(l)
+
+# l1 = [1, 2, 3]
+# l2 = [4, 5, 6]
+# l3 = l1 + l2
+# print(l3)  2
+
+# f = f.index(100)
+# print(f)
+
+l5 = range(10,40)
+print(list(l5))
+
+l4 = (1,3,4,2,3,5)
+l6 = (1,3,4,2,3,5)
+# l6 = (9,20,60,32,64,23)
+
+print(sum(l4,6))
