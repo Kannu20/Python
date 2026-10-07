@@ -335,3 +335,53 @@ l6 = (1,3,4,2,3,5)
 # l6 = (9,20,60,32,64,23)
 
 print(sum(l4,6))
+
+
+w = [10,10,10,30,40,50,30,60]
+
+w1 = w.count(10) # it will count the no. of 10 in the list
+print(w1)
+print(w.count(30)) 
+
+l = [10,20,10,"Kanishak",'Om']
+print(l.index("Om")) 
+
+
+t  = (1,2,3,4,5,6,2,5,10,23,505,23,495)
+t1 = sorted(t)
+print(t1) 
+print(max(t))
+
+s1 = "Kanishak"
+print(s1)
+
+# d = dict(s1)
+# print(d) 
+
+t = tuple(s1)
+print(t)
+
+t1 = set(s1)
+print(t1)
+
+t2 = list(s1)
+print(t2)
+
+# tuple unpacking
+
+t = (10,20,30)
+
+a,b,c = t
+print(a)
+print(b)
+print(c)
+
+# tuple packing
+
+a = 10
+b = 20
+c = 30
+
+t = a,b,c
+print(t)
+print(type(t))
