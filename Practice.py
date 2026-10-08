@@ -284,104 +284,140 @@ l = [10, 20, ['a','b','c'], 30, 40]
 
 # print(s)
 
-f = [3,2,4,1,5,7,24,3]
-# f.sort(reverse=True)
-print(f)
-#  Deep copy of list
-f1 = f.copy()
-print("copy list: ",f1)
-
-f1.append(100)
-print("Deep copy: ",f1)
-print("Original list: ",f)
-
-# Shallow copy of list
-f2 = f
-f2.append(200)
-print("Shallow copy: ",f2)
-print("Original list: ",f)
-
-f2.pop(2)
-print("After popping element at index 2: ",f2)
-print("Original list after popping from shallow copy: ",f)
-
-f.append(300)
-print("After appending 300 to original list: ",f)
-print("Shallow copy after appending to original list: ",f2)
-# l.extend([50, 60])
-# print(l)
-# l.extend((90, 80))
-# print(l)
-
-# l.extend({'a': 1, 'b': 2})
-# print(l)
-
-# l.extend({1, 'y', 'z'})
-# print(l)
-
-# l1 = [1, 2, 3]
-# l2 = [4, 5, 6]
-# l3 = l1 + l2
-# print(l3)  2
-
-# f = f.index(100)
+# f = [3,2,4,1,5,7,24,3]
+# # f.sort(reverse=True)
 # print(f)
+# #  Deep copy of list
+# f1 = f.copy()
+# print("copy list: ",f1)
 
-l5 = range(10,40)
-print(list(l5))
+# f1.append(100)
+# print("Deep copy: ",f1)
+# print("Original list: ",f)
 
-l4 = (1,3,4,2,3,5)
-l6 = (1,3,4,2,3,5)
-# l6 = (9,20,60,32,64,23)
+# # Shallow copy of list
+# f2 = f
+# f2.append(200)
+# print("Shallow copy: ",f2)
+# print("Original list: ",f)
 
-print(sum(l4,6))
+# f2.pop(2)
+# print("After popping element at index 2: ",f2)
+# print("Original list after popping from shallow copy: ",f)
+
+# f.append(300)
+# print("After appending 300 to original list: ",f)
+# print("Shallow copy after appending to original list: ",f2)
+# # l.extend([50, 60])
+# # print(l)
+# # l.extend((90, 80))
+# # print(l)
+
+# # l.extend({'a': 1, 'b': 2})
+# # print(l)
+
+# # l.extend({1, 'y', 'z'})
+# # print(l)
+
+# # l1 = [1, 2, 3]
+# # l2 = [4, 5, 6]
+# # l3 = l1 + l2
+# # print(l3)  2
+
+# # f = f.index(100)
+# # print(f)
+
+# l5 = range(10,40)
+# print(list(l5))
+
+# l4 = (1,3,4,2,3,5)
+# l6 = (1,3,4,2,3,5)
+# # l6 = (9,20,60,32,64,23)
+
+# print(sum(l4,6))
 
 
-w = [10,10,10,30,40,50,30,60]
+# w = [10,10,10,30,40,50,30,60]
 
-w1 = w.count(10) # it will count the no. of 10 in the list
-print(w1)
-print(w.count(30)) 
+# w1 = w.count(10) # it will count the no. of 10 in the list
+# print(w1)
+# print(w.count(30)) 
 
-l = [10,20,10,"Kanishak",'Om']
-print(l.index("Om")) 
+# l = [10,20,10,"Kanishak",'Om']
+# print(l.index("Om")) 
 
 
-t  = (1,2,3,4,5,6,2,5,10,23,505,23,495)
-t1 = sorted(t)
-print(t1) 
-print(max(t))
+# t  = (1,2,3,4,5,6,2,5,10,23,505,23,495)
+# t1 = sorted(t)
+# print(t1) 
+# print(max(t))
 
-s1 = "Kanishak"
-print(s1)
+# s1 = "Kanishak"
+# print(s1)
 
-# d = dict(s1)
-# print(d) 
+# # d = dict(s1)
+# # print(d) 
 
-t = tuple(s1)
-print(t)
+# t = tuple(s1)
+# print(t)
 
-t1 = set(s1)
-print(t1)
+# t1 = set(s1)
+# print(t1)
 
-t2 = list(s1)
-print(t2)
+# t2 = list(s1)
+# print(t2)
 
-# tuple unpacking
+# # tuple unpacking
 
-t = (10,20,30)
+# t = (10,20,30)
 
-a,b,c = t
-print(a)
-print(b)
-print(c)
+# a,b,c = t
+# print(a)
+# print(b)
+# print(c)
 
-# tuple packing
+# # tuple packing
 
-a = 10
-b = 20
-c = 30
+# a = 10
+# b = 20
+# c = 30
 
-t = a,b,c
-print(t)
-print(type(t))
+# t = a,b,c
+# print(t)
+# print(type(t))
+
+
+# wap to count vowels to the given string from the user
+
+# s = input("Enter a string: ")
+
+# vowels = "aeiouAEIOU"
+# vowel_count = 0
+
+# for char in s:
+#     if char in vowels:
+#         vowel_count += 1
+
+# print("Number of vowels in the string:", vowel_count)
+
+# wap to count consonants to the given string from the user
+
+# s = input("Enter a string: ")
+
+# vowels = "aeiouAEIOU"
+# consonant_count = 0
+
+# for char in s:
+#     if char not in vowels:
+#         consonant_count += 1
+
+# print("Number of consonants in the string:", consonant_count)
+
+d = {1: 'omi' , 3 : 4, 1: 'om', 5: 2.9, 1: 'omiraj', 1: 'ankit'}
+
+print(d)
+
+x = [1, 2, 3, 4, 5, 6]
+
+print(bytes(x))
+
