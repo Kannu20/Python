@@ -413,11 +413,14 @@ l = [10, 20, ['a','b','c'], 30, 40]
 
 # print("Number of consonants in the string:", consonant_count)
 
-d = {1: 'omi' , 3 : 4, 1: 'om', 5: 2.9, 1: 'omiraj', 1: 'ankit'}
+# d = {1: 'omi' , 3 : 4, 1: 'om', 5: 2.9, 1: 'omiraj', 1: 'ankit'}
 
-print(d)
+# print(d)
 
-x = [1, 2, 3, 4, 5, 6]
+# x = [1, 2, 3, 4, 5, 6]
 
-print(bytes(x))
+# print(bytes(x))
+
+
+# print("om" in d)
 
